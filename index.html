@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
 </head>
 
 <body>
@@ -22,8 +26,8 @@
     <ul id="list">
       <li><a href="#welcome-section">About me</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="gallery">Gallery</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </navbar>
 
@@ -101,17 +105,64 @@
   </div>
 
   <div id="gallery">
+    <h1 class="title-gallery">Gallery</h1>
 
+    <div class="container-gallery">
+
+        <div>
+          <h1 class="gallery-h1">Project Curriculum Vitae</h1>
+        <a data-fancybox="video-gallery" href="videos/Bienvenida - Personal_ Microsoft​ Edge 2022-12-29 01-57-49.mp4">
+          <video src="videos/Bienvenida - Personal_ Microsoft​ Edge 2022-12-29 01-57-49.mp4" width="400" height="400" />
+        </a> 
+      </div> 
+
+      <div>    
+          <h1 class="gallery-h1">Project Landing Page</h1>
+        <a data-fancybox="video-gallery" href="videos/Landing page y 3 páginas más - Personal_ Microsoft​ Edge 2022-12-29 02-09-09.mp4">
+          <video src="videos/Landing page y 3 páginas más - Personal_ Microsoft​ Edge 2022-12-29 02-09-09.mp4" width="400" height="400" />
+        </a>
+      </div>
+
+      <div>
+        <h1 class="gallery-h1">Project E-Commerce</h1>
+        <a data-fancybox="video-gallery" href="videos/Pymes Marketplace - Personal_ Microsoft​ Edge 2022-12-29 02-20-38.mp4">
+          <video src="videos/Pymes Marketplace - Personal_ Microsoft​ Edge 2022-12-29 02-20-38.mp4" width="400" height="400"/>
+        </a>
+      </div>
+    
 
   </div>
 
   <div id="contact">
-    <p><a id="profile-link" href="https://www.linkedin.com/in/luis-alejandro-vel%C3%A1squez-astudillo-95a666145/"><i
-          class="fab fa-linkedin-in"></i></a></p>
+    <div class="contact-title">
+      <h1>
+        Thank you for viewing my portfolio, let's keep in touch
+      </h1>
+    </div>
+
+    <div class="logo-container">
+        <p><a id="profile-link" href="https://www.linkedin.com/in/luis-alejandro-vel%C3%A1squez-astudillo-95a666145/"><i
+          class="fab fa-linkedin-in fa-2xl"></i>
+          </a>
+      </p>
+
+        <p><a id="Email-Link" href="mailto:luisaleastudillo@gmail.com"><i
+        class="fa fa-envelope fa-2xl"></i>
+        </a>
+      </p>
+
+      <p><a id="GitHub-Link" href="https://github.com/MR-Rxbot"><i
+        class="fab fa-github fa-2xl"></i>
+        </a>
+      </p>
+
+    </div>
 
   </div>
 
 
-</body>
 
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </html>

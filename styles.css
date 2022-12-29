@@ -185,8 +185,6 @@ ul li a:hover{
   margin-right: auto;
 }
 
-
-
 .container-btn{
   width: 40%;
  background-color: rgb(31, 11, 6);
@@ -218,11 +216,73 @@ ul li a:hover{
 
 #gallery{
   width: 100%;
-  height: 600px;
+  background: linear-gradient(to right, #d1913c, #ffd194); 
+  margin-bottom: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery .title-gallery{
+  color: white;
+  font-size: 58px;
+  text-align: center; 
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-gallery{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  justify-items: center;
+}
+
+
+
+.gallery-h1{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+
+video{
+  margin-top: -30px;
 }
 
 #contact{
+
+  color: white;
   width: 100%;
-  height: 600px;
-  background-color: rgba(173, 201, 52, 0.692);
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  height: 300px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 26px;
+  font-style: oblique;
+}
+
+
+.logo-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: -100px;
+}
+
+i{
+  color: white;
+}
+
+i:hover{
+  color: #2c3e50;
+  transition: 900ms;
 }
